@@ -5,3 +5,10 @@ layout: default
   <header><h2><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h2></header>
   {{ content }}
 </article>
+
+{% if site.external %}
+<footer>
+  <div>{{ site.description | default: site.title }}</div>
+  {% include menu.html menu=site.external %}
+</footer>
+{% endif %}
