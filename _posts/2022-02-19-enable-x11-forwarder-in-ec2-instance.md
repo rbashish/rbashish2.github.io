@@ -1,7 +1,7 @@
 ---
 title:  "Enable X11 forwarder in EC2 Instance using putty"
 mathjax: true
-layout: post
+layout: article
 categories: media
 ---
 
